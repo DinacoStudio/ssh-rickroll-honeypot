@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  ssh-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ssh-server
+    ports:
+      - "${PORT:-22}:22"
+    restart: always
+    environment:
+      - NODE_ENV=production
+      - PORT=${PORT:-22}
+    stdin_open: true
+    tty: true

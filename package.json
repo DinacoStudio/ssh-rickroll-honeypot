@@ -1,0 +1,13 @@
+{
+	"name": "ssh-honeypot",
+	"version": "1.0.0",
+	"description": "SSH Honeypot с ASCII анимацией",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"ssh2": "1.11.0",
+		"terminal-kit": "^3.0.0"
+	}
+}
