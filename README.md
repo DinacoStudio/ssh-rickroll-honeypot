@@ -87,9 +87,9 @@ Honeypot — это ловушка, которая имитирует уязви
 
 ## Автор
 
-Автор: [Ваше имя или никнейм]
+Автор: [DinacoStudio]
 
-GitHub: [Ссылка на ваш профиль GitHub]
+GitHub: [https://github.com/DinacoStudio]
 
 ---
 
