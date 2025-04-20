@@ -114,6 +114,11 @@ function createServer(hostKey) {
 								// Игнорируем ошибки при закрытии
 							}
 						};
+						const disconnect = () => {
+							client.end();
+							cleanup();
+						};
+						setTimeout(disconnect, 60_000);
 
 						stream.on("close", cleanup);
 						stream.on("eof", cleanup);
